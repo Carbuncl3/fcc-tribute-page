@@ -1,3 +1,67 @@
 body {
     background: url("resources/images/yucar-fotografik-Os18w3ys5jo-unsplash.jpg")
 }
+
+.container {
+    text-align: center;
+    font-family: 'Waiting for the Sunrise', cursive;
+    color: whitesmoke;
+}
+
+#img-div {
+    background-color:  rgba(0,0,0, .8);
+    text-align: center;
+}
+
+#image {
+    max-width: 75%;
+    height: auto;
+}
+
+#title {
+    background-color: rgba(0,0,0, .8);
+    font-size: 78px;
+    margin-bottom: 0px;
+}
+
+#subheading {
+    font-size: 32px;
+    background-color:  rgba(0,0,0, .8);
+    margin-top: 0px;
+}
+#tribute-info {
+    background-color: rgba(0,0,0, .8);                  
+}
+
+li {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    grid-template-rows: repeat(5, 200px);
+}
+
+.box1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.box2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+ul {
+    color: whitesmoke;
+    text-align: left;
+    font-size: 16px;      
+}
+
+#tribute-info.div {
+    background-color: rgba(0,0,0, .8);
+}
+
+a:hover {
+    text-decoration: green;
+}
